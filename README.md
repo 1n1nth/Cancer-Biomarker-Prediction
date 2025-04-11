@@ -4,7 +4,10 @@
 This project uses a classical neural network to predict gene mutations involved in CTLA-4 pathway regulation from high-dimensional RNA-sequencing data. It aims to identify the most relevant genes for cancer immunotherapy through gradient-based feature attribution.
 
 ## 🧬 Problem Statement
-Given expression levels of 2048 genes from RNA sequencing (RNA.csv), the model predicts mutation presence across 13 target genes (Mutation.csv) relevant to CTLA-4 signaling.
+
+Given expression levels of **2048 genes** from RNA sequencing (`RNA.csv`), the model predicts the presence of mutations across **13 target genes** (`MUTATION.csv`) associated with the **CTLA-4 signaling pathway**, a key regulator in cancer immunotherapy.
+
+In addition to mutation prediction, the model identifies the **top 20 most influential input genes** for each mutation target, helping to highlight potential biomarker candidates and improve interpretability.
 
 ## 🧠 Model Architecture
 A feedforward neural network is implemented using PyTorch:
