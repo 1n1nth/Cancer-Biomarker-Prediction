@@ -34,6 +34,28 @@ A feedforward neural network is implemented using PyTorch:
 ├── utils.py                  # Visualization, feature attribution, helpers
 ├── run.py                    # Load trained model and predict on a custom sample
 ```
+## 📂 Dataset
+
+Due to GitHub's file size restrictions, the dataset is hosted externally.
+
+🔗 **[Click here to download `data.zip` (73.7 MB)](https://drive.google.com/uc?id=1h5qnC2BKpLfNmezEiG_nhr6ckvtmOlgO&export=download)**
+
+### Contents:
+- `RNA.csv`: Gene expression matrix (2048 features)
+- `MUTATION.csv`: Mutation labels for 13 genes + cross-validation folds
+
+### 📦 Setup:
+After downloading `data.zip`, extract it into the root of the project.
+
+It should create:
+project-root/
+├── data/
+│   ├── RNA.csv
+│   └── MUTATION.csv
+
+> 🔒 Add `data/` to `.gitignore` if you wish to avoid accidentally committing large files.
+
+---
 
 ## 📊 Outputs
 - Top 20 genes by importance for each sample
@@ -69,7 +91,7 @@ model.load_state_dict(torch.load(model_path, weights_only=True))
 ## 📚 Reference
 This implementation is inspired by the research work:
 Biomarker discovery with quantum neural networks: a case-study in CTLA4-activation pathways by Phuong‑Nam Nguyen
-https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05755-0
+🔗 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05755-0
 
 This repo presents a classical neural network version of the approach described in the paper.
 
