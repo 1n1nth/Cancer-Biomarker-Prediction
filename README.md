@@ -91,7 +91,8 @@ model.load_state_dict(torch.load(model_path, weights_only=True))
 ## 📚 Reference
 This implementation is inspired by the research work:
 Biomarker discovery with quantum neural networks: a case-study in CTLA4-activation pathways by Phuong‑Nam Nguyen
-🔗 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05755-0
+🔗 **[Paper Link](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05755-0)**
+🔗 **[Repository](https://github.com/namnguyen0510/Biomarker-Discovery-with-Quantum-Neural-Networks)**
 
 This repo presents a classical neural network version of the approach described in the paper.
 
