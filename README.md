@@ -101,8 +101,9 @@ This repo presents a classical neural network version of the approach described 
 
 > No code from the original implementation was used — this is an independent reimplementation based on the concept presented in the paper.
 
-## 👤 Author
-Ananth B — https://github.com/1n1nth
+## 👤 Authors
+**[Ananth B](https://github.com/1n1nth)**
+**[Alen K Aji](https://github.com/AlenKAji)**
 
 ---
 Feel free to raise issues or contribute improvements!
