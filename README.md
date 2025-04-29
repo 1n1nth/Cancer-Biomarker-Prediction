@@ -104,7 +104,7 @@ This repo presents a classical neural network version of the approach described 
 ## 👤 Authors
 **[Ananth B](https://github.com/1n1nth)**
 **[Alen K Aji](https://github.com/AlenKAji)**
-
+**[George Jacob](https://github.com/george6007)**
 ---
 Feel free to raise issues or contribute improvements!
 
